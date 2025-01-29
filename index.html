@@ -242,7 +242,7 @@
               </div>
             </div>
 
-            <div class="col-lg-6">
+            <!-- <div class="col-lg-6">
               <form action="https://formspree.io/f/xqaeqrop" method="post" role="form" class="php-email-form">
                 <div class="row gy-3">
 
@@ -274,12 +274,6 @@
                     <div class="loading" style="display: none;">Loading...</div>
                     <div class="sent-message" style="display: none;">Your message has been sent. Thank you!</div>
                   </div>
-                  <style>
-                    /* Hide the JSON response */
-                    .php-email-form + div {
-                      display: none;
-                    }
-                  </style>
 
                   <input type="hidden" name="_next" value="https://miaaaaaa3.github.io/Portfolio/thanks.html">
 
@@ -289,7 +283,14 @@
 
                 </div>
               </form>
-            </div>
+            </div> -->
+            <form action="https://formspree.io/f/xqaeqrop" method="POST">
+              <input type="text" name="name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <textarea name="message" placeholder="Your Message" required></textarea>
+              <input type="hidden" name="_next" value="https://miaaaaaa3.github.io/Portfolio/thanks.html">
+              <button type="submit">Send</button>
+            </form>
           </div>
         </div>
       </div>
