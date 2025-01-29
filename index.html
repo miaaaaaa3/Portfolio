@@ -270,26 +270,16 @@
                     </div>
                   </div>
 
-                  <div class="col-lg-12">
-                    <div class="loading" style="display: none;">Loading...</div>
-                    <div class="sent-message" style="display: none;">Your message has been sent. Thank you!</div>
-                  </div>
-
-                  <input type="hidden" name="_next" value="https://miaaaaaa3.github.io/Portfolio/thanks.html">
-
-                  <div class="mt-0">
-                    <input type="submit" class="btn btn-defeault btn-send" value="Send message">
-                  </div>
-
                 </div>
               </form>
             </div> -->
             <div class="col-lg-6">
               <form action="https://formspree.io/f/xqaeqrop" method="POST">
                 <div class="row gy-3">
-                  <input type="text" name="name" placeholder="Your Name" required>
-                  <input type="email" name="email" placeholder="Your Email" required>
-                  <textarea name="message" placeholder="Your Message" required></textarea>
+                  <input class="form-control" type="text" name="name" placeholder="Your Name" required>
+                  <input class="form-control" type="email" name="email" placeholder="Your Email" required>
+                  <input class="form-control" type="text" name="subject" id="subject" placeholder="Subject" required>
+                  <textarea class="form-control" name="message" placeholder="Your Message" required></textarea>
                   <input type="hidden" name="_next" value="https://miaaaaaa3.github.io/Portfolio/thanks.html">
                   <div class="mt-0">
                     <input type="submit" class="btn btn-defeault btn-send" value="Send message">
